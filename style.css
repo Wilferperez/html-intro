@@ -21,12 +21,12 @@ body {
 .left-section{
     grid-column: span 2;
     height: 100%;
-    background-color: #00324a;
+    background-color: #f7f7f7;
 }
 
 .right-section{
     grid-column: span 5;
-    background-color: #f7f7f7;
+    background-color: #44586a;
     height: 100%;
 }
 
@@ -36,7 +36,7 @@ body {
 
 .profile{
     width: 100%;
-   border-bottom: 1px solid #002333;
+  
 }
 
 .image{
@@ -45,14 +45,12 @@ body {
 }
 .profile img{
     width: 100%;
-    border-radius: 50%;
-    border: 8px solid #002a3d;
 }
 
 .name{
-    font-size: 2rem;
-    color: rgb(247, 241, 241);
-    text-align:justify;
+    font-size: 1.2rem;
+    color: rgb(14, 13, 13);
+   
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1.2rem 0;
@@ -71,7 +69,7 @@ body {
     font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: whitesmoke;
+    color: black;
     padding-top: 3rem;
 }
 
@@ -97,7 +95,6 @@ body {
 
 .skills-section ul li{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     padding: .4rem 0;
 }
 .progress-bar{
@@ -124,8 +121,7 @@ body {
     width: 85%;
 }
 .skill-title{
-    text-transform: uppercase;
-    color: #f7f7f7;
+    color: black;
     font-size: 1rem;
     padding-right: 1rem;
 }
@@ -137,17 +133,17 @@ body {
     color: #f7f7f7 ;
 }
 .sub-para{
-    color: #ccc;
+    color: black;
     padding: .4rem 0;
 }
 .references-section li{
-    color: #ccc;
+    color: black;
     padding: .2rem;
 }
 .references-section li i{
     padding-right: .5rem;
     font-size: 1.2rem;
-    color: #2d9cdb;
+    color: #4e6375;
 }
 
 .right-main-content{
@@ -157,7 +153,7 @@ body {
 .right-title{
         letter-spacing: 1px;
         text-transform: uppercase;
-        color: #2f80ed;
+        color: #ccc;
         margin-bottom: 1.2rem;
         position: relative;
 }
@@ -167,7 +163,7 @@ body {
     position: absolute;
     width: 60%;
     height: .2rem;
-    background-color: #2d9cdb;
+    background-color: #ccc;
     border-radius: 12px;
      right: 0;
     top: 50%;
@@ -177,7 +173,7 @@ body {
 
 .para{
         line-height: 1.6rem;
-        color: #718096;
+        color: #ccc;
         font-size: 1.1rem;
 }
 
@@ -187,15 +183,15 @@ body {
 
 .timeline{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
 
 }
 
 .tl-title{
     letter-spacing: 1px;
     font-size: 1.3rem;
-    color: #002333;
-    text-transform: uppercase;
+    color: #ccc;
+    
 }
 .tl.title-2{
     letter-spacing: 1px;
@@ -217,7 +213,7 @@ body {
     position: absolute;
     width: .7rem;
     height: .7rem;
-    /* background-color: #2d9cdb; */
+    background-color: #ccc;
     transform: translateX(-50%);
     border-radius: 50%;
     left: 0;
