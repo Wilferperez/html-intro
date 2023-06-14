@@ -90,7 +90,7 @@ body {
     color: #2d9cdb;
 }
 .skills-section ul{
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 .skills-section ul li{
@@ -127,8 +127,8 @@ body {
 }
 
 .sub-title{
-    padding-top: 2rem;
-    font-size: 1.2rem;
+    /* padding-top: 2rem; */
+    font-size: 1.1rem;
     text-transform: uppercase;
     color: #f7f7f7 ;
 }
@@ -181,10 +181,23 @@ body {
     padding-bottom: 2rem;
 }
 
+table {
+    width:100%;
+}
+table tr td{
+    width: 50%;
+}
+td.left-column{
+    padding-left: 32px;
+}
+
 .timeline{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
+}
 
+.experience-section{
+    margin-top: 15px;
 }
 
 .tl-title{
